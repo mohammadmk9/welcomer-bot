@@ -39,7 +39,7 @@ client.on("ready", () => {
     function YousamPower() {
       let hungry = ["TEST 1" , "TEST 2", "TEST 3" ]
       let Power = Math.floor(Math.random() * hungry.length);
-      client.user.setActivity(hungry[Power], {type: "STREAMING", url: "https://www.twitch.tv/shabake4"});
+      client.user.setActivity(hungry[Power], {type: "STREAMING", url: ""});
     }; setInterval(YousamPower, 2000)
 });
 
